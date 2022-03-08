@@ -32,7 +32,7 @@ if(message.author.id === "管理者のID") return message.channel.send("あな�
 
 使う場合は、BOTの詳細などに製作者の名前を提示してください。
 
-## 著作権
+## 著作権表示のお願い
 製作者のTwitter:[@kinoko1216](https://twitter.com/kinoko1216)
 
 入れる場合

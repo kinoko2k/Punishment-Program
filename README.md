@@ -1,6 +1,13 @@
 # Punishment-Program
 GlobalBANやGlobalMUTEなどのプログラムです。
 
+## Package
+**Discord.js@v12**
+```js
+npm install discord.js@12
+```
+
+## Code
 **GlobalBan.js**
 ```js
 if (message.author.id === "実行できる人のID") return message.channel.send("BOT管理者の使用権限がありません。");
@@ -25,8 +32,7 @@ if(message.author.id === "管理者のID") return message.channel.send("あな�
 
 使う場合は、BOTの詳細などに製作者の名前を提示してください。
 
-~~
-
+## 著作権
 製作者のTwitter:[@kinoko1216](https://twitter.com/kinoko1216)
 
 入れる場合

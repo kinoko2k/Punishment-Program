@@ -1,11 +1,11 @@
-const discord = require("discord.js");
-const client = new discord.Client();
+const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-client.login("TOKEN");
+client.login('TOKEN');
 
-client.on("ready", async () => {
-  console.log("GBAN.jsが起動しました。");
-  client.user.setActivity(require("discord.js").version + client.guilds.size)
+client.on('ready', () => {
+  console.log('GBAN.jsが起動しました。');
+  client.user.setActivity(require('discord.js').version + client.guilds.cache.size);
 });
 
 client.on("messageCreate", async message => {

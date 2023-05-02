@@ -1,10 +1,22 @@
 # Punishment-Program
 GlobalBANやGlobalMUTEなどのプログラムです。
 
+Discord.js@v12
+
+[`GlobalChatGMute.js`](https://github.com/kinoko2k/Punishment-Program/commit/fb395c658997c7310c8ce86d2d476b5263cc5622)
+
+[`GlobalBAN.js`](https://github.com/kinoko2k/Punishment-Program/commit/c2246ec11531ada1ba81dedd11e5e979b0adc7d5)
+
+Discord.js@v13
+
+[`GlobalChatGMute.js`](https://github.com/kinoko2k/Punishment-Program/commit/5ffee9bb75939aa835860dd990021a503e7febf5)
+
+[`GlobalBAN.js`](https://github.com/kinoko2k/Punishment-Program/commit/5ffee9bb75939aa835860dd990021a503e7febf5)
+
 ## Package
-**Discord.js@v12**
+**Discord.js@v13**
 ```js
-npm install discord.js@12
+npm install discord.js@13
 ```
 
 ## Code
@@ -30,12 +42,4 @@ if(message.author.id === "管理者のID") return message.channel.send("あな�
 ```
 のIDに管理者IDを設定することで実行できるようになります。
 
-使う場合は、BOTの詳細などに製作者の名前を提示してください。
-
-## 著作権表示のお願い
-製作者のTwitter:[@kinoko1216](https://twitter.com/kinoko1216)
-
-入れる場合
-```
-製作者のTwitter:[@kinoko1216](https://twitter.com/kinoko1216)
-```
+作成者の名前いらない気がするけどLICENSEだけ守って。
